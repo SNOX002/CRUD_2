@@ -10,6 +10,9 @@ todosRoutes.post("/todos", (req, res) => {
     return res.status(201).json(allTodos)
 })
 // R 
+todosRoutes.get("/todos", (req, res) => {
+    return res.status(200).json(allTodos)
+})
 // U 
 // D 
 
