@@ -4,6 +4,7 @@ import todosRoutes from './todos.routes'
 const app = express()
 const port = 3000
 
+// Utilização "http://localhost:3000/todos"
 
 app.use(express.json())
 app.use(todosRoutes)
