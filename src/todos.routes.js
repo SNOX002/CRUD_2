@@ -20,11 +20,6 @@ todosRoutes.post("/todos", async (req, res) => {
     return res.status(201).json(todo)
 })
 // R 
-todosRoutes.get("/todos", async (req, res) => {
-    //Se erra o nome da variavel o método findMany fica inutilizavel
-    const todo = await prisma.todo.findMany()
-    return res.status(200).json(todo)
-})
 // U 
 // D 
 
